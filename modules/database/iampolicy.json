@@ -1,0 +1,16 @@
+{
+    "Version" : "2012-10-17",
+    "Statement" : [
+      {
+        "Action" : [
+          "secretsmanager:GetSecretValue",
+          "secretsmanager:GetRandomPassword",
+          "secretsmanager:GetResourcePolicy",
+          "secretsmanager:DescribeSecret",
+          "secretsmanager:ListSecretVersionIds"
+        ],
+        "Effect"   : "Allow",
+        "Resource" : "*"
+      }
+    ]
+}
